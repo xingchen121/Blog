@@ -141,7 +141,7 @@ public class BlogServiceImpl implements BlogService {
 	/**
 	 * 将pageResult中博客对象的浏览量设置为Redis中的最新值
 	 *
-	 * @param pageResult
+	 * 	@param pageResult
 	 */
 	private void setBlogViewsFromRedisToPageResult(PageResult<BlogInfo> pageResult) {
 		String redisKey = RedisKeyConstants.BLOG_VIEWS_MAP;

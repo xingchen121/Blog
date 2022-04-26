@@ -27,7 +27,7 @@ public class BlogProperties {
 	/**
 	 * 博客后端接口URL
 	 */
-	private String api;
+	private String  api;
 	/**
 	 * 博客前端后台管理URL
 	 */
